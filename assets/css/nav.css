@@ -568,33 +568,22 @@ body.dark .fk_service_box {
 
 body.dark .fk_service_themes {
     border: 1px solid rgba(0, 0, 0, 0);
-    background: url("/assets/images/theme.svg") 4px 4px no-repeat;
+    background: url("../images/toolbar/theme.svg") 4px 4px no-repeat;
 }
 
 body.dark .fk_service_themes:hover {
-    background: url("/assets/images/theme_dark_hover.svg") 4px 4px no-repeat;
-    transition: 0.3s;
-    border: 1px solid rgb(204, 204, 204) !important;
-}
-
-body.dark .fk_service_sidebar {
-    border: 1px solid rgba(0, 0, 0, 0);
-    background: url("/assets/images/menu.svg") 4px 4px no-repeat;
-}
-
-body.dark .fk_service_sidebar:hover {
-    background: url("/assets/images/menu_dark_hover.svg") 4px 4px no-repeat;
+    background: url("../images/toolbar/theme_dark_hover.svg") 4px 4px no-repeat;
     transition: 0.3s;
     border: 1px solid rgb(204, 204, 204) !important;
 }
 
 body.dark .fk_service_upward {
     border: 1px solid rgba(0, 0, 0, 0);
-    background: url("/assets/images/up.svg") 4px 4px no-repeat;
+    background: url("../images/toolbar/up.svg") 4px 4px no-repeat;
 }
 
 body.dark .fk_service_upward:hover {
-    background: url("/assets/images/up_dark_hover.svg") 4px 4px no-repeat;
+    background: url("../images/toolbar/up_dark_hover.svg") 4px 4px no-repeat;
     transition: 0.3s;
     border: 1px solid rgb(204, 204, 204) !important;
 }
