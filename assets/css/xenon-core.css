@@ -310,13 +310,13 @@ body.night .EKHJj {
 
 .fk_service_upward {
     display: none;
-    background: url("../fonts/up.svg") 4px 4px no-repeat rgb(255, 255, 255);
+    background: url("/assets/images/up.svg") 4px 4px no-repeat rgb(255, 255, 255);
     border: 1px solid rgb(255, 255, 255);
 }
 
 .fk_service_upward:hover {
     border: 1px solid rgb(52, 100, 224);
-    background: url("../fonts/up_light_hover.svg") 4px 4px no-repeat rgb(255, 255, 255);
+    background: url("/assets/images/up_light_hover.svg") 4px 4px no-repeat rgb(255, 255, 255);
     cursor: pointer;
     box-shadow: rgba(180, 195, 255, 0.5) 0px 2px 10px;
     transition: 0.3s;
@@ -324,13 +324,13 @@ body.night .EKHJj {
 
 .fk_service_themes {
     display: none;
-    background: url("../fonts/theme.svg") 4px 4px no-repeat rgb(255, 255, 255);
+    background: url("/assets/images/theme.svg") 4px 4px no-repeat rgb(255, 255, 255);
     border: 1px solid rgba(0, 0, 0, 0);
 }
 
 .fk_service_themes:hover {
     border: 1px solid rgb(52, 100, 224);
-    background: url("../fonts/theme_light_hover.svg") 4px 4px no-repeat rgb(255, 255, 255);
+    background: url("/assets/images/theme_light_hover.svg") 4px 4px no-repeat rgb(255, 255, 255);
     cursor: pointer;
     box-shadow: rgba(180, 195, 255, 0.5) 0px 2px 10px;
     transition: 0.3s;
