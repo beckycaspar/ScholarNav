@@ -1439,7 +1439,7 @@ span.twitter-typeahead .tt-suggestion > p:hover, span.twitter-typeahead .tt-sugg
     background-size: 21px !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .ms-container {
         width: 100% !important;
     }

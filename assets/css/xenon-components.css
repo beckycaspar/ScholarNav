@@ -15,7 +15,7 @@
     margin-top: 30px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .mailbox-env .mailbox-sidebar .mailbox-list {
         margin-top: 10px;
     }
@@ -127,7 +127,7 @@
     white-space: nowrap;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .mailbox-env .mail-env .mail-table .col-subject a {
         max-width: 150px;
     }
@@ -322,7 +322,7 @@
     font-size: 17px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .mailbox-env .mail-header h3 {
         margin-bottom: 20px;
     }
@@ -346,7 +346,7 @@
     font-size: 23px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .mailbox-env .mail-single .mail-single-header > h2 {
         float: none;
         margin-bottom: 20px;
@@ -378,7 +378,7 @@
     float: right;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .mailbox-env .mail-single .mail-single-header .mail-single-header-options {
         float: none;
     }
@@ -592,7 +592,7 @@
     float: right !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .mailbox-env .mailbox-right {
         float: none !important;
     }
@@ -602,7 +602,7 @@
     float: left !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .mailbox-env .mailbox-left {
         float: none !important;
     }
@@ -795,7 +795,7 @@
     width: 200px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .search-env .nav.tabs-vertical {
         width: 50px;
         min-width: 50px;
@@ -881,7 +881,7 @@
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .gallery-env .gallery-sidebar {
         margin-top: 30px;
     }
@@ -961,7 +961,7 @@
     margin-left: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .gallery-env .album-header {
         padding: 15px 20px;
     }
@@ -1033,7 +1033,7 @@
     display: block;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 995px) {
     .gallery-env .album-images .album-image .name span, .gallery-env .album-images .album-image .name em {
         max-width: 100%;
         display: inline-block;
@@ -1095,7 +1095,7 @@
     float: right !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .gallery-env .gallery-right {
         float: none !important;
     }
@@ -1105,7 +1105,7 @@
     float: left !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .gallery-env .gallery-left {
         float: none !important;
     }
@@ -1270,7 +1270,7 @@ lesshat-selector {
     width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .calendar-env .calendar-sidebar {
         margin-top: 30px;
     }
@@ -1284,7 +1284,7 @@ lesshat-selector {
     margin: 0px 0px 30px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .calendar-env .calendar-sidebar .calendar-list {
         margin-top: 10px;
     }
@@ -1362,7 +1362,7 @@ lesshat-selector {
     margin-right: -15px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .calendar-env .calendar-main .fc .fc-toolbar .fc-left, .calendar-env .calendar-main .fc .fc-toolbar .fc-right {
         float: none;
         width: 100%;
@@ -1587,7 +1587,7 @@ lesshat-selector {
     float: right !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .calendar-env .calendar-right {
         float: none !important;
     }
@@ -1597,7 +1597,7 @@ lesshat-selector {
     float: left !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .calendar-env .calendar-left {
         float: none !important;
     }
@@ -2234,7 +2234,7 @@ lesshat-selector {
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .timeline-centered {
         margin-top: 60px !important;
     }
@@ -2583,7 +2583,7 @@ lesshat-selector {
     font-size: 12px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .notes-env .notes-list .list-of-notes li a strong {
         margin-bottom: -10px;
         border-bottom: 0px;
@@ -2709,7 +2709,7 @@ lesshat-selector {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 995px) {
     body .notes-env .notes-list .list-of-notes, body .notes-env .notes-list .write-pad {
         width: 100%;
         float: none;
@@ -3107,7 +3107,7 @@ button.toast-close-button {
     }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 995px) {
     #toast-container > div {
         padding: 15px 15px 15px 50px;
         width: 25em;
@@ -3160,7 +3160,7 @@ button.toast-close-button {
     transition: 800ms cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .login-page .login-form.fade-in-effect {
         left: 0px;
     }
@@ -3417,7 +3417,7 @@ button.toast-close-button {
     color: rgb(151, 152, 152);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .login-page {
         padding-top: 0px;
     }
@@ -3457,7 +3457,7 @@ button.toast-close-button {
     padding-top: 250px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .lockscreen-page {
         padding-top: 30px;
     }
@@ -3563,7 +3563,7 @@ button.toast-close-button {
     zoom: 1; opacity: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .lockscreen-page .lockcreen-form .user-thumb, .lockscreen-page .lockcreen-form .form-group {
         float: none;
         width: 100%;
@@ -5479,7 +5479,7 @@ button.toast-close-button {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .xe-widget.xe-weather .xe-background {
         top: auto;
         bottom: 0px;
@@ -5619,7 +5619,7 @@ button.toast-close-button {
     color: rgb(255, 255, 255);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .xe-widget.xe-weather .xe-current-day {
         position: relative;
         width: 100%;
@@ -5692,7 +5692,7 @@ button.toast-close-button {
     color: rgba(255, 255, 255, 0.95);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .xe-widget.xe-weather .xe-weekdays {
         float: none;
         width: 100%;
@@ -5781,7 +5781,7 @@ button.toast-close-button {
     font-size: 14px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .xe-widget.xe-map-stats {
         display: block;
     }
@@ -5801,7 +5801,7 @@ button.toast-close-button {
     border-bottom: 1px solid rgb(50, 52, 53);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .sidebar-user-info {
         display: none;
     }
@@ -5816,7 +5816,7 @@ button.toast-close-button {
     padding: 30px 45px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .sidebar-user-info .user-profile {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -5881,7 +5881,7 @@ button.toast-close-button {
     margin-top: 10px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 995px) {
     .sidebar-menu.collapsed .sidebar-user-info + .main-menu {
         margin-top: 0px;
     }
@@ -5996,7 +5996,7 @@ button.toast-close-button {
     width: 1%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .members-table tbody tr td.user-image {
         display: none;
     }
@@ -6019,7 +6019,7 @@ button.toast-close-button {
     white-space: nowrap;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .members-table tbody tr td.action-links {
         width: 25%;
     }
@@ -6051,7 +6051,7 @@ button.toast-close-button {
     margin-top: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .members-table-actions {
         text-align: center;
         margin-bottom: 20px;
@@ -6084,7 +6084,7 @@ button.toast-close-button {
     vertical-align: middle;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     .member-form-add-header .user-img {
         margin-top: 20px;
     }

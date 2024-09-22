@@ -25,7 +25,9 @@
             <!-- logo -->
             <div class="logo">
                 <a href="index.html" class="logo-link">
-                    Scholar<img class="logo_size" src="assets/images/scholarnav_short.png" alt="" />Nav
+                    <span>Scholar</span>
+                    <img class="logo_size" src="assets/images/scholarnav_short.png" alt="" />
+                    <span>Nav</span>
                 </a>
             </div>
         </header>
@@ -951,6 +953,7 @@
 
 </script>
 <!-- Bottom Scripts -->
+<script src="assets/js/zui.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/TweenMax.min.js"></script>
 <script src="assets/js/resizeable.js"></script>
@@ -983,11 +986,15 @@
         
 </style>
     </div>
-
-            <div class="fk_service">
+        <div class="fk_service">
             <ul>
                 <li class="fk_service_box fk_service_themes" onclick="toggleTheme()" style="display: block;">
                     <a id="03" href="#" rel="theme-toggle" class="fk_service_box fk_service_themes" title="切换皮肤"></a>
+                </li>
+                <li class="fk_service_box fk_service_sidebar visible-xs"
+                    onclick="document.getElementById('01').click();" style="display: block;">
+                    <a id="01" href="#" rel="toggle-sidebar" class="fk_service_box fk_service_sidebar" title="切换侧栏"
+                        data-toggle="mobile-menu">1</a>
                 </li>
                 <li class="fk_service_box fk_service_upward"
                     onclick="document.getElementById('02').click();" style="display: block;">
