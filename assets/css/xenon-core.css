@@ -1160,7 +1160,7 @@ html, body {
 }
 
 .sidebar-menu .logo-env {
-    padding: 40px 40px 0px;
+    padding: 50px 40px 30px;
     display: flex; 
     justify-content: center; 
     align-items: center; 
