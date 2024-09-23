@@ -8446,3 +8446,114 @@ pre {
         padding-bottom: 48px;
     }
 }
+
+
+/* 设置搜索框样式 */
+.s-search {
+    background-image: linear-gradient(45deg, #8618db 0%, #d711ff 50%, #460fdd 100%);
+}
+
+.super-search-fm {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    padding: 80px 18% 10px 18%;
+}
+
+/* 设置输入框样式 */
+.form-control {
+    flex-grow: 1;
+    height: 50px; /* 设置输入框高度 */
+    padding: 0 20px; /* 调整内边距，使按钮与输入框边缘对齐 */
+    border: 1px solid rgba(255, 255, 255, .05);
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+}
+
+.form-control:hover {
+    border: 1.3px solid white;
+}
+
+.form-control::placeholder {
+    font-size: 16px; 
+    color: #666; 
+}
+
+/* 设置按钮样式 */
+.submit {
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* 设置图标样式 */
+.iconfont {
+    font-size: 16px;
+    background-color: transparent; 
+}
+
+
+/* 设置搜索list */
+.search-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.search-list .search-group {
+    display: flex;
+    align-items: center;
+}
+
+.search-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0px 20px;
+    font-size: 14px;
+    position: relative;
+}
+
+.search-option span {
+    color: #333;
+    font-weight: normal;
+    position: relative;
+    transition: color 0.3s ease, font-weight 0.3s ease;
+    z-index: 1;
+}
+
+.search-option input[type="radio"] {
+    display: none;
+}
+
+/* 当单选按钮被选中时的样式 */
+.search-option input[type="radio"]:checked + span {
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease, font-weight 0.3s ease;
+}
+
+/* 添加伪元素实现下划线 */
+.search-option input[type="radio"]:checked + span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px; /* 调整这里的值来改变下划线与文字的垂直距离 */
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    opacity: 1;
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+/* 非选中状态下的伪元素样式 */
+.search-option:not(:checked) + span::after {
+    background-color: transparent;
+    transition: opacity 0.3s ease;
+}

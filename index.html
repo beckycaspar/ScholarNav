@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="assets/css/xenon-skins.css">
   <link rel="stylesheet" href="assets/css/nav.css">
   <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
   <script src="assets/js/jquery-1.11.1.min.js"></script>
 </head>
 
@@ -75,56 +76,35 @@
 
 
 
-<div class="main-content">
+
     <!-- add search region, including google, bing, baidu -->
-    <!-- <div class="s-search">
+    <div class="s-search">
         <div id="search" class="s-search mx-auto">
-            <div id="search-list-menu" class="hide-type-list">
-                <div class="s-type text-center">
-                    <div class="s-type-list big">
-                        <div class="anchor" style="position: absolute; left: 50%; opacity: 0;"></div>
-                        <label for="type-bing1" data-id="group-b"><span>搜索</span></label>
-                    </div>
-                </div>
-            </div>
-            <form action="https://cn.bing.com/search?q=" method="get" target="_blank" class="super-search-fm">
-                <input type="text" id="search-text" class="form-control smart-tips search-key" zhannei="" placeholder="搜索" style="outline:0" autocomplete="off">
-                <button class="submit" type="submit"><i class="iconfont icon-search"></i></button>
+            <form id="search-form" action="" method="get" target="_blank" class="super-search-fm">
+                <input type="text" id="search-text" class="form-control smart-tips search-key" placeholder="在谷歌中搜索，或输入网址" style="outline:0;" autocomplete="off">
+                <button class="submit" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
             </form>
-            <div id="search-list" class="hide-type-list">
+            <div id="search-list" class="search-list">
                 <div class="search-group group-b s-current">
-                    <ul class="search-type">
-                        <li><input hidden="" type="radio" name="type" id="type-bing1" value="https://cn.bing.com/search?q=" data-placeholder="微软 Bing 搜索">
-                        <label for="type-bing1"><span class="text-muted">必应</span></label>
-                        </li>
-                        <li><input hidden="" type="radio" name="type" id="type-baidu1" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下，你就知道">
-                        <label for="type-baidu1"><span class="text-muted">百度</span></label>
-                        </li>
-                        <li><input hidden="" type="radio" name="type" id="type-google1" value="https://www.google.com/search?q=" data-placeholder="谷歌搜索">
-                        <label for="type-google1"><span class="text-muted">谷歌</span></label>
-                        </li>
-                        <li><input hidden="" type="radio" name="type" id="type-360" value="https://www.so.com/s?q=" data-placeholder="360 好搜">
-                        <label for="type-360"><span class="text-muted">360</span></label>
-                        </li>
-                        <li><input hidden="" type="radio" name="type" id="type-sogo" value="https://www.sogou.com/web?query=" data-placeholder="搜狗搜索">
-                        <label for="type-sogo"><span class="text-muted">搜狗</span></label>
-                        </li>
-                        <li><input hidden="" type="radio" name="type" id="type-sm" value="https://yz.m.sm.cn/s?q=" data-placeholder="UC 移动端搜索">
-                        <label for="type-sm"><span class="text-muted">神马</span></label>
-                        </li>
-                    </ul>
+                    <label class="search-option" for="type-google1">
+                        <input type="radio" name="type" id="type-google1" value="https://www.google.com/search?q=" data-placeholder="谷歌搜索" checked><span>谷歌</span>
+                    </label>
+                    <label class="search-option" for="type-bing1">
+                        <input type="radio" name="type" id="type-bing1" value="https://cn.bing.com/search?q=" data-placeholder="微软Bing搜索"><span>必应</span>
+                    </label>
+                    <label class="search-option" for="type-baidu1">
+                        <input type="radio" name="type" id="type-baidu1" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下，你就知道"><span>百度</span>
+                    </label>
                 </div>
             </div>
             <div class="card search-smart-tips search-hot-text" style="display: none;">
                 <ul id="word" style="display: none"></ul>
             </div>
         </div>
-    </div> -->
+    </div>
+    
 
-
-
-
-        
+<div class="main-content">     
   	<h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;"
     data-set-nav="#检索服务"></i>检索服务</h4>
     <div class="row">  
@@ -962,6 +942,7 @@
 <script src="assets/js/xenon-toggles.js"></script>
 <!-- JavaScripts initializations and stuff -->
 <script src="assets/js/xenon-custom.js"></script>
+<script src="assets/js/test.js"></script>
 <!-- <script src="assets/js/lozad.js"></script> -->
 
 
