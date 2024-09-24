@@ -69,6 +69,12 @@
                     <span class="title">基金项目</span>
                 </a>
             </li>     
+            <li>
+                <a href="#其他工具"
+                    class="smooth">
+                    <span class="title">其他工具</span>
+                </a>
+            </li>     
                        
         </ul>
     </div>
@@ -87,13 +93,24 @@
             <div id="search-list" class="search-list">
                 <div class="search-group group-b s-current">
                     <label class="search-option" for="type-google1">
-                        <input type="radio" name="type" id="type-google1" value="https://www.google.com/search?q=" data-placeholder="在谷歌中搜索，或输入网址" checked><span>谷歌</span>
+                        <input type="radio" name="type" id="type-google1" value="https://www.google.com/search?q=" data-placeholder="在谷歌中搜索" checked>
+                        <span><img src="assets/images/logos/search/google.svg" class="search-logo">谷歌搜索</span>
                     </label>
                     <label class="search-option" for="type-bing1">
-                        <input type="radio" name="type" id="type-bing1" value="https://cn.bing.com/search?q=" data-placeholder="微软Bing搜索"><span>必应</span>
+                        <input type="radio" name="type" id="type-bing1" value="https://cn.bing.com/search?q=" data-placeholder="在必应中搜索">
+                        <span><img src="assets/images/logos/search/bing.svg" class="search-logo">必应搜索</span>
                     </label>
                     <label class="search-option" for="type-baidu1">
-                        <input type="radio" name="type" id="type-baidu1" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下，你就知道"><span>百度</span>
+                        <input type="radio" name="type" id="type-baidu1" value="https://www.baidu.com/s?wd=" data-placeholder="在百度中搜索">
+                        <span><img src="assets/images/logos/search/baidu.svg" class="search-logo">百度搜索</span>
+                    </label>
+                    <label class="search-option" for="type-scholar1">
+                        <input type="radio" name="type" id="type-scholar1" value="https://scholar.google.com/scholar?q=" data-placeholder="谷歌学术检索">
+                        <span><img src="assets/images/logos/search/google-scholar.svg" class="search-logo">谷歌学术</span>
+                    </label>
+                    <label class="search-option" for="type-ieee1">
+                        <input type="radio" name="type" id="type-ieee1" value="https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=" data-placeholder="IEEE Xplore 搜索">
+                        <span><img src="assets/images/logos/search/ieee.png" class="search-logo">IEEE 搜索</span>
                     </label>
                 </div>
             </div>
@@ -139,7 +156,7 @@
                         <span class="xe-user-name overflowClip_1">
                             IEEE Xplore                                   
                         </span>
-                        <p class="overflowClip_3">IEEE检索</p>
+                        <p class="overflowClip_3">IEEE 检索</p>
                     </div>
                 </div>
             </div>
@@ -281,6 +298,24 @@
         </div>
         <div class="col-sm-3">
             <div class="xe-widget xe-conversations box2 label-info"
+                onclick="window.open('https://www.letpub.com.cn/index.php?page=journalapp', '_blank')"
+                data-toggle="tooltip" data-placement="bottom" title=""
+                data-original-title="">
+                <div class="xe-comment-entry">
+                    <span class="xe-user-img">
+                        <img src="assets/images/logos/letpub.jpg" class="img-circle" width="36" alt="">
+                    </span>
+                    <div class="xe-comment">
+                        <span class="xe-user-name overflowClip_1">
+                            LetPub                                   
+                        </span>
+                        <p class="overflowClip_3">期刊查询</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
                 onclick="window.open('https://arxiv.org/', '_blank')"
                 data-toggle="tooltip" data-placement="bottom" title=""
                 data-original-title="">
@@ -310,7 +345,7 @@
                         <span class="xe-user-name overflowClip_1">
                             Science                                   
                         </span>
-                        <p class="overflowClip_3">Science正刊</p>
+                        <p class="overflowClip_3">Science 正刊</p>
                     </div>
                 </div>
             </div>
@@ -328,7 +363,7 @@
                         <span class="xe-user-name overflowClip_1">
                             Nature                                   
                         </span>
-                        <p class="overflowClip_3">Nature正刊</p>
+                        <p class="overflowClip_3">Nature 正刊</p>
                     </div>
                 </div>
             </div>
@@ -346,7 +381,7 @@
                         <span class="xe-user-name overflowClip_1">
                             Nature Electronics                                   
                         </span>
-                        <p class="overflowClip_3">Nature子刊</p>
+                        <p class="overflowClip_3">Nature 子刊</p>
                     </div>
                 </div>
             </div>
@@ -364,26 +399,7 @@
                         <span class="xe-user-name overflowClip_1">
                             Nature Comunications                                   
                         </span>
-                        <p class="overflowClip_3">Nature子刊</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-3">
-            <div class="xe-widget xe-conversations box2 label-info"
-                onclick="window.open('https://time.is/GMT-7', '_blank')"
-                data-toggle="tooltip" data-placement="bottom" title=""
-                data-original-title="">
-                <div class="xe-comment-entry">
-                    <span class="xe-user-img">
-                        <img src="assets/images/logos/timeis.png" class="img-circle" width="36" alt="Photoroom">
-                    </span>
-                    <div class="xe-comment">
-                        <span class="xe-user-name overflowClip_1">
-                            Time·is                                    
-                        </span>
-                        <p class="overflowClip_3">时间查询</p>
+                        <p class="overflowClip_3">Nature 子刊</p>
                     </div>
                 </div>
             </div>
@@ -477,7 +493,7 @@
                 data-original-title="">
                 <div class="xe-comment-entry">
                     <span class="xe-user-img">
-                        <img src="assets/images/logos/deepl.svg" class="img-circle" width="36" alt="">
+                        <img src="assets/images/logos/deepl.jpg" class="img-circle" width="36" alt="">
                     </span>
                     <div class="xe-comment">
                         <span class="xe-user-name overflowClip_1">
@@ -495,7 +511,7 @@
                 data-original-title="">
                 <div class="xe-comment-entry">
                     <span class="xe-user-img">
-                        <img src="assets/images/logos/grammarly.svg" class="img-circle" width="36" alt="">
+                        <img src="assets/images/logos/grammarly.jpg" class="img-circle" width="36" alt="">
                     </span>
                     <div class="xe-comment">
                         <span class="xe-user-name overflowClip_1">
@@ -689,7 +705,7 @@
                         <span class="xe-user-name overflowClip_1">
                             tblr usage                                    
                         </span>
-                        <p class="overflowClip_3">Latex tblr表格使用教程</p>
+                        <p class="overflowClip_3">Latex tblr 表格使用教程</p>
                     </div>
                 </div>
             </div>
@@ -758,6 +774,93 @@
             </div>
         </div>
 
+       
+    </div>
+    <br/>   
+
+
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;"
+    data-set-nav="#基金项目"></i>基金项目</h4>
+    <div class="row">  
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick="window.open('https://www.nsfc.gov.cn', '_blank')"
+                data-toggle="tooltip" data-placement="bottom" title=""
+                data-original-title="">
+                <div class="xe-comment-entry">
+                    <span class="xe-user-img">
+                        <img src="assets/images/logos/nsfc.jpg" class="img-circle" width="36" alt="">
+                    </span>
+                    <div class="xe-comment">
+                        <span class="xe-user-name overflowClip_1">
+                            NSFC                                    
+                        </span>
+                        <p class="overflowClip_3">国家自然科学基金委员会</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick="window.open('http://fund.keyanzhiku.com/Index/index.html', '_blank')"
+                data-toggle="tooltip" data-placement="bottom" title=""
+                data-original-title="">
+                <div class="xe-comment-entry">
+                    <span class="xe-user-img">
+                        <img src="assets/images/logos/NSFC_search.png" class="img-circle" width="36" alt="">
+                    </span>
+                    <div class="xe-comment">
+                        <span class="xe-user-name overflowClip_1">
+                            NSFC项目查询                                    
+                        </span>
+                        <p class="overflowClip_3">1986年至今获批项目</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick="window.open('https://www.nsf.gov/', '_blank')"
+                data-toggle="tooltip" data-placement="bottom" title=""
+                data-original-title="">
+                <div class="xe-comment-entry">
+                    <span class="xe-user-img">
+                        <img src="assets/images/logos/nsf.png" class="img-circle" width="36" alt="">
+                    </span>
+                    <div class="xe-comment">
+                        <span class="xe-user-name overflowClip_1">
+                            NSF                                    
+                        </span>
+                        <p class="overflowClip_3">美国自然科学基金</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br/>   
+
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;"
+    data-set-nav="#其他工具"></i>其他工具</h4>
+    <div class="row">  
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick="window.open('https://time.is/GMT-7', '_blank')"
+                data-toggle="tooltip" data-placement="bottom" title=""
+                data-original-title="">
+                <div class="xe-comment-entry">
+                    <span class="xe-user-img">
+                        <img src="assets/images/logos/timeis.png" class="img-circle" width="36" alt="Photoroom">
+                    </span>
+                    <div class="xe-comment">
+                        <span class="xe-user-name overflowClip_1">
+                            Time·is                                    
+                        </span>
+                        <p class="overflowClip_3">时间查询</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="col-sm-3">
             <div class="xe-widget xe-conversations box2 label-info"
                 onclick="window.open('https://app.photoroom.com/create', '_blank')"
@@ -843,77 +946,32 @@
                         <span class="xe-user-name overflowClip_1">
                             worldvectorlogo                                    
                         </span>
-                        <p class="overflowClip_3">全球产品矢量Logo</p>
+                        <p class="overflowClip_3">全球产品矢量 Logo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick="window.open('https://jpg2png.com/', '_blank')"
+                data-toggle="tooltip" data-placement="bottom" title=""
+                data-original-title="其他图片格式转换类似, 网址中直接输入xxx2xxx.com">
+                <div class="xe-comment-entry">
+                    <span class="xe-user-img">
+                        <img src="assets/images/logos/jpg2png.png" class="img-circle" width="36" alt="worldvectorlogo">
+                    </span>
+                    <div class="xe-comment">
+                        <span class="xe-user-name overflowClip_1">
+                            JPG2PNG                                    
+                        </span>
+                        <p class="overflowClip_3">图片格式转换</p>
                     </div>
                 </div>
             </div>
         </div>
 
     </div>
-    <br/>   
-
-
-    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;"
-    data-set-nav="#基金项目"></i>基金项目</h4>
-    <div class="row">  
-        <div class="col-sm-3">
-            <div class="xe-widget xe-conversations box2 label-info"
-                onclick="window.open('https://www.nsfc.gov.cn', '_blank')"
-                data-toggle="tooltip" data-placement="bottom" title=""
-                data-original-title="">
-                <div class="xe-comment-entry">
-                    <span class="xe-user-img">
-                        <img src="assets/images/logos/nsfc.jpg" class="img-circle" width="36" alt="">
-                    </span>
-                    <div class="xe-comment">
-                        <span class="xe-user-name overflowClip_1">
-                            NSFC                                    
-                        </span>
-                        <p class="overflowClip_3">国家自然科学基金委员会</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="xe-widget xe-conversations box2 label-info"
-                onclick="window.open('http://fund.keyanzhiku.com/Index/index.html', '_blank')"
-                data-toggle="tooltip" data-placement="bottom" title=""
-                data-original-title="">
-                <div class="xe-comment-entry">
-                    <span class="xe-user-img">
-                        <img src="assets/images/logos/NSFC_search.png" class="img-circle" width="36" alt="">
-                    </span>
-                    <div class="xe-comment">
-                        <span class="xe-user-name overflowClip_1">
-                            NSFC项目查询                                    
-                        </span>
-                        <p class="overflowClip_3">1986年至今获批项目</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="xe-widget xe-conversations box2 label-info"
-                onclick="window.open('https://www.nsf.gov/', '_blank')"
-                data-toggle="tooltip" data-placement="bottom" title=""
-                data-original-title="">
-                <div class="xe-comment-entry">
-                    <span class="xe-user-img">
-                        <img src="assets/images/logos/nsf.png" class="img-circle" width="36" alt="">
-                    </span>
-                    <div class="xe-comment">
-                        <span class="xe-user-name overflowClip_1">
-                            NSF                                    
-                        </span>
-                        <p class="overflowClip_3">美国自然科学基金</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <br/>   
-                   
+    <br/>               
                 
     <footer class="main-footer sticky footer-type-1">
         <div class="footer-inner">
