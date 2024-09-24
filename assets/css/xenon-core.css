@@ -8450,10 +8450,9 @@ pre {
 
 /* 设置搜索框样式 */
 .s-search {
-    background-image: url("../images/background2.jpg");
-    background-position: 0 0; /* 初始位置 */
-    overflow: hidden; /* 隐藏溢出部分 */
-    position: relative; /* 设置相对定位 */
+    background-image: url("../images/background.jpg");
+    overflow: hidden; 
+    position: relative; 
 }
 
 /* 设置动画效果 */
