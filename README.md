@@ -8,5 +8,3 @@ Scholar Navigator
 - [CooHub](https://coohub.xyz/)
 
 
----
-直接使用静态托管形式
