@@ -8450,7 +8450,7 @@ pre {
 
 /* 设置搜索框样式 */
 .s-search {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/backgrounds.jpg");
     overflow: hidden; 
     position: relative; 
 }
