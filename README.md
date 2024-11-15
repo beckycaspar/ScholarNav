@@ -6,5 +6,3 @@ Scholar Navigator
 - [WebStackPage](https://github.com/WebStackPage/WebStackPage.github.io)
 - [shenweiyan](https://github.com/shenweiyan/WebStack-Hugo?tab=readme-ov-file)
 - [CooHub](https://coohub.xyz/)
-
-
