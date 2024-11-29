@@ -614,3 +614,17 @@ body.dark .fk_service_upward:hover {
 .fk_service {
     bottom: 10px;
 }
+
+
+.timezone {
+    font-size: 20px;
+}
+.timezone div {
+    margin-bottom: 6px; 
+}
+.timezone div:first-child {
+    margin-top: 20px; 
+}
+.timezone div:last-child {
+    margin-bottom: 0px; 
+}
