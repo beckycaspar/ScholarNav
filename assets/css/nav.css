@@ -358,14 +358,14 @@ body.night .search-engine ul::before {
 
 .box2:hover {
     box-shadow: rgba(180, 195, 255, 0.5) 0px 2px 10px;
-    transition: 0.3s;
+    transition: 0.2s;
     border: 1px solid rgb(52, 100, 224);
 }
 
 .xe-comment-entry img, .xe-comment-entry .no-img {
     float: left;
     display: block;
-    margin-right: 10px;
+    margin-right: 16px;
     margin-top: 2px;
 }
 
@@ -502,9 +502,9 @@ body.dark .box2 {
 }
 
 body.dark .box2:hover {
-    box-shadow: rgba(24, 27, 36, 0.5) 0px 2px 10px;
+    box-shadow: rgba(178, 192, 236, 0.5) 0px 2px 10px;
     transition: 0.3s;
-    border: 1px solid rgb(52, 100, 224);
+    border: 1px solid rgb(255, 255, 255);
 }
 
 body.dark .overflowClip_1 {

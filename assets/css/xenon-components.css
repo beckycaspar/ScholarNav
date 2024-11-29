@@ -5448,9 +5448,6 @@ button.toast-close-button {
     animation: 10s linear 0s infinite alternate none running weatherBgMove;
 }
 
-.xe-widget.xe-weather .xe-background.xe-background-animated lesshat-selector {
-}
-
 @-webkit-keyframes weatherBgMove {
     0% {
         left: 0px;
